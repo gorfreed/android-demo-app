@@ -1,0 +1,35 @@
+phraseapp:
+  access_token: xxx
+  file_format: xml
+  project_id: xxx
+  pull:
+    targets:
+    - file: ./app/src/main/res/values/strings.xml
+      params:
+        file_format: xml
+        locale_id: xxx
+        format_options:
+          convert_placeholder: true
+    - file: ./app/src/main/res/values-de/strings.xml
+      params:
+        file_format: xml
+        locale_id: xxx
+        format_options:
+          convert_placeholder: true
+    - file: ./app/src/main/res/values-es/strings.xml
+      params:
+        file_format: xml
+        locale_id: xxx
+        format_options:
+          convert_placeholder: true
+    - file: ./app/src/main/res/values-es-rMX/strings.xml
+      params:
+        file_format: xml
+        locale_id: xxx
+        format_options:
+          convert_placeholder: true
+  push:
+    sources:
+    - file: ./app/src/main/res/values/strings.xml
+      params:
+        locale_id: xxx
