@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="app_name">Nombre de la prueba</string>
+  <string name="hello.world">Hola %s!</string>
+  <plurals name="new.friends">
+    <item quantity="zero">No tiene nuevos amigos</item>
+  </plurals>
+  <string name="points.gained">Has ganado% d puntos!</string>
+  <string name="with.html">&lt;h1&gt;HTMLEscape&lt;/h1&gt;&lt;p&gt;Escapes o caracteres de escape de un archivo HTML eliminar los rastros de caracteres problemáticos que podría interpretarse erróneamente como margen de beneficio.&lt;/p&gt;</string>
+  <string name="with.linebreak">se trata de un texto con 
+saltos de línea <nueva l=""/></string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+  <string name="app_name">Test Name</string>
+  <string name="hello.world">Hello %s!</string>
+  <plurals name="new.friends">
+    <item quantity="one">You have a new friend</item>
+    <item quantity="other">You have %d new friends</item>
+    <item quantity="zero">You have no new friends</item>
+  </plurals>
+  <string name="points.gained">You have gained %d points!</string>
+  <string name="with.html">&lt;h1&gt;HTML Escape&lt;/h1&gt;&lt;p&gt;Escapes or unescapes an HTML file removing traces of offending characters that could be wrongfully interpreted as markup.&lt;/p&gt;</string>
+  <string name="with.linebreak">this is a text with 
+linebreaks</string>
+</resources>
