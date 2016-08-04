@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<resources/>
+<resources>
+  <string name="hello_world">Cabron %s, que pasa </string>
+  <string name="points_gained">mexican Has ganado %d puntos!</string>
+  <string name="with_linebreak">mexican se trata de un texto 
+con saltos de línea <nueva l=""/></string>
+</resources>

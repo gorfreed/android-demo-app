@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <string name="app_name">Test Name</string>
-  <string name="hello.world">Hallo %s!</string>
-  <plurals name="new.friends">
+  <string name="hello_world">Hallo %s!</string>
+  <plurals name="new_friends">
     <item quantity="one">Sie haben einen neuen Freund</item>
     <item quantity="other">Sie haben %d neue Freunde</item>
     <item quantity="zero">Du hast keine neuen Freunde</item>
   </plurals>
-  <string name="points.gained">Sie haben %d Punkte gewonnen!</string>
-  <string name="with.html">&lt;h1&gt; HTML Flucht &amp; lt;/h1&gt;&lt;p&gt; Escapes oder demaskiert eine HTML-Datei Spuren zu beleidigen Zeichen zu entfernen, die zu Unrecht als Markup interpretiert werden könnte. &lt;/p&gt;</string>
-  <string name="with.linebreak">Dies ist ein Text mit 
+  <string name="points_gained">Sie haben %d Punkte gewonnen!</string>
+  <string name="with_html">&lt;h1&gt; HTML Flucht &lt;/h1&gt;&lt;p&gt; Escapes oder demaskiert eine HTML-Datei Spuren zu beleidigen Zeichen zu entfernen, die zu Unrecht als Markup interpretiert werden könnte. &lt;/p&gt;</string>
+  <string name="with_linebreak">Dies ist ein Text mit 
  Zeilenumbrüchen</string>
 </resources>

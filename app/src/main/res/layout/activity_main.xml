@@ -12,25 +12,44 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello.world"
-        android:id="@+id/textView2" />
+        android:text="@string/hello_world"
+        android:id="@+id/helloWorld" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/with.linebreak"
-        android:id="@+id/textView"
-        android:layout_below="@+id/textView2"
-        android:layout_marginTop="157dp"
+        android:text="@string/with_linebreak"
+        android:id="@+id/withLinebreak"
+        android:layout_above="@+id/withHtml"
         android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_marginBottom="87dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:id="@+id/textView3"
-        android:layout_below="@+id/textView2"
-        android:layout_alignParentStart="true" />
+        android:id="@+id/pointsGained"
+        android:layout_below="@+id/helloWorld"
+        android:layout_alignParentStart="true"
+        android:text="@string/points_gained" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/with_html"
+        android:id="@+id/withHtml"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/newFriends"
+        android:layout_below="@+id/pointsGained"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="46dp" />
 </RelativeLayout>
