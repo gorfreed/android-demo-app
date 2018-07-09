@@ -1,10 +1,7 @@
 phraseapp:
-  access_token: xxx
-  file_format: xml
-  project_id: xxx
   pull:
     targets:
-    - file: ./app/src/main/res/values/strings.xml
+    - file: ./values-en/strings.xml
       params:
         file_format: xml
         locale_id: xxx
